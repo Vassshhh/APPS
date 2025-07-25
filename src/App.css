@@ -1,0 +1,12 @@
+:root {
+  --bs-primary-rgb: 20, 108, 148;
+}
+.icon-style {
+  color: #FFD700;
+}
+.card-header {
+    font-weight: bold;
+}
+body {
+    background-color: #f8f9fa;
+}
