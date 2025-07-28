@@ -1,0 +1,103 @@
+/* src/components/DownloadDashboard.module.css */
+.container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  background-color: #e0f2fe;
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+.table tr:hover {
+  background-color: #f9fafb;
+}
+
+.downloadBtn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  margin-left: 0.5rem; /* Add some space between buttons */
+}
+
+.downloadBtn:hover {
+  background-color: #2563eb;
+}
+
+.editInput {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.editBtn,
+.saveBtn,
+.cancelBtn {
+  background-color: #6c757d; /* Gray for edit */
+  color: white;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.editBtn:hover {
+  background-color: #5a6268;
+}
+
+.saveBtn {
+  background-color: #28a745; /* Green for save */
+}
+
+.saveBtn:hover {
+  background-color: #218838;
+}
+
+.cancelBtn {
+  background-color: #dc3545; /* Red for cancel */
+  margin-left: 0.5rem;
+}
+
+.cancelBtn:hover {
+  background-color: #c82333;
+}
